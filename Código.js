@@ -19,7 +19,7 @@ var app = new Vue({
             const response = await fetch(this.pokes.images);
             this.images = await response.json();
             console.log(pokes_images);
-        }
+        },
     }
 
 })
